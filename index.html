@@ -10,14 +10,17 @@
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="logo.css">
+<style>
+.pricing{background:#f5efe3}.pricing-heading{display:grid;grid-template-columns:1fr .78fr;gap:70px;align-items:end;margin-bottom:60px}.pricing-heading>p:last-child{margin:0;max-width:420px;color:#58636b;font-size:16px}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.pricing-card{display:flex;flex-direction:column;min-height:410px;padding:35px 32px 31px;background:#e9e1d4;border:1px solid #c8bfb2}.pricing-card--featured{background:#0b1724;border-color:#0b1724;color:#f5efe3}.pricing-label{font-size:11px;letter-spacing:.16em;font-weight:700;color:#66727b;margin:0 0 26px}.pricing-card--featured .pricing-label{color:#aeb8c0}.pricing-card h3{font-family:"Playfair Display",serif;font-size:31px;line-height:1.1;font-weight:500;margin:0 0 20px}.pricing-price{font-family:"Playfair Display",serif;font-size:25px;line-height:1.25;margin:0 0 22px}.pricing-price span{display:block;font-family:"DM Sans",sans-serif;font-size:11px;font-weight:700;letter-spacing:.13em;text-transform:uppercase;margin-bottom:6px}.pricing-card p:last-child{margin:0;color:#58636b;font-size:14px}.pricing-card--featured p:last-child{color:#c2c9cd}.custom-engagements{margin-top:16px;padding:28px 32px;border:1px solid #c8bfb2;display:grid;grid-template-columns:1.1fr 1.9fr;gap:50px;align-items:center}.custom-engagements h3{font-family:"Playfair Display",serif;font-size:25px;line-height:1.2;font-weight:500;margin:0}.custom-engagements p{margin:0;color:#58636b;font-size:14px}@media(max-width:850px){.pricing-heading{grid-template-columns:1fr;gap:24px}.pricing-grid{grid-template-columns:1fr}.pricing-card{min-height:0}.custom-engagements{grid-template-columns:1fr;gap:12px}}@media(max-width:560px){.pricing-card{padding:30px 25px}.custom-engagements{padding:25px}}
+</style>
 </head>
 <body>
 <header class="site-header">
 <div class="container nav-wrap">
-<a class="brand" href="#top"><span class="brand-mark"><img src="elevations-mountain-logo.png" alt=""></span><span>Elevations Inc.</span></a>
+<a class="brand" href="#top"><span class="brand-mark"><img src="assets/elevations-mountain-logo.png" alt=""></span><span>Elevations Inc.</span></a>
 <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
 <nav class="site-nav">
-<a href="#services">Services</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#about">About</a><a class="nav-cta" href="#contact">Contact</a>
+<a href="#services">Services</a><a href="#pricing">Pricing</a><a href="#approach">Approach</a><a href="#experience">Experience</a><a href="#about">About</a><a class="nav-cta" href="#contact">Contact</a>
 </nav>
 </div>
 </header>
@@ -62,6 +65,18 @@
 </div>
 </section>
 
+<section class="section pricing" id="pricing">
+<div class="container">
+<div class="pricing-heading"><div><p class="eyebrow">PRICING</p><h2>Support built for your <em>next elevation.</em></h2></div><p>Thoughtful, controller-level financial support designed around the needs, complexity, and pace of your business.</p></div>
+<div class="pricing-grid">
+<article class="pricing-card"><p class="pricing-label">FOUNDATIONAL SUPPORT</p><h3>Essential</h3><p class="pricing-price"><span>Starting at</span>$1,000/month</p><p>For small businesses that need reliable accounting support, financial reporting, and a stronger foundation for day-to-day financial operations.</p></article>
+<article class="pricing-card"><p class="pricing-label">FINANCIAL LEADERSHIP</p><h3>Controller</h3><p class="pricing-price"><span>Starting at</span>$2,500/month</p><p>For businesses that need experienced ownership of the accounting function, management-level insight, and dependable financial oversight.</p></article>
+<article class="pricing-card pricing-card--featured"><p class="pricing-label">STRATEGIC FINANCE</p><h3>Strategic</h3><p class="pricing-price"><span>Starting at</span>$4,500/month</p><p>For businesses that need fractional CFO support, forecasting, financial modeling, cash-flow management, and decision support for growth.</p></article>
+</div>
+<div class="custom-engagements"><h3>Custom Engagements Available</h3><p>Custom pricing is available for acquisitions, complex cleanup, real estate portfolios, and special projects requiring tailored financial support.</p></div>
+</div>
+</section>
+
 <section class="section experience" id="experience">
 <div class="container">
 <div class="section-heading narrow"><p class="eyebrow">EXPERIENCE</p><h2>Experience built across <em>complex businesses.</em></h2><p>Elevations brings experience spanning real estate, public-company finance, renewable energy, investment analysis, property management, and multi-entity financial operations.</p></div>
@@ -92,7 +107,7 @@
 </section>
 </main>
 
-<footer class="site-footer"><div class="container footer-wrap"><div class="brand footer-brand"><span class="brand-mark"><img src="elevations-mountain-logo.png" alt=""></span><span>Elevations Inc.</span></div><p>Financial Leadership. Operational Clarity. Better Decisions.</p><span>© 2026 Elevations Inc.</span></div></footer>
+<footer class="site-footer"><div class="container footer-wrap"><div class="brand footer-brand"><span class="brand-mark"><img src="assets/elevations-mountain-logo.png" alt=""></span><span>Elevations Inc.</span></div><p>Financial Leadership. Operational Clarity. Better Decisions.</p><span>© 2026 Elevations Inc.</span></div></footer>
 <script src="script.js"></script>
 </body>
 </html>
